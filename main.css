@@ -63,7 +63,7 @@ body {
   background-image: url("img/hot-dog.jpg");
 }
 
-video {
+.card {
   max-width: 720px;
   width: 100%;
   margin: 100px auto 0 auto;

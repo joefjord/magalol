@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* =================
+Typography
+=================*/
+
+html {
+  font-size: 16px;
+}
+
+p, ul {
+  font-family: 'Domine', serif;
+  line-height: 1.75em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  /* available font-weights = 700 and 900, reg and italic */
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.style-guide {
+  width: 50%;
+  min-width: 450px;
+  background-color: rgba(0, 0, 0, 0.04);
+  padding: 40px;
+  margin: 40px 0 0 40px;
+  border-radius: 4px;
+}
+
+.style-guide h1 {
+  line-height: 1.2em;
+}
+
+.style-guide h4 {
+  margin: 15px 0 0 0;
+  color: red;
+}
+
+.style-guide p {
+  margin: 30px 0 0 0;
+}
+
+/* =================
+Custom styles
+=================*/
+
+body {
+  background-image: url("img/hot-dog.jpg");
+}
+
+video {
+  max-width: 720px;
+  width: 100%;
+  margin: 100px auto 0 auto;
+  display: block;
+}
